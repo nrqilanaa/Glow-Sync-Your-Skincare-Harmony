@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity13">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity9"
+        tools:layout_editor_absoluteX="5dp"
+        tools:layout_editor_absoluteY="-39dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            tools:context=".MainActivity9">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView3"
+                android:layout_width="416dp"
+                android:layout_height="98dp"
+                android:background="#FFFFFF"
+                android:backgroundTint="#F8B7ED"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0">
+
+                <TextView
+                    android:id="@+id/textView17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="180dp"
+                    android:layout_marginTop="35dp"
+                    android:text="FAQ'S"
+                    android:textColor="#000000"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView4"
+                android:layout_width="416dp"
+                android:layout_height="67dp"
+                android:background="#FFFFFF"
+                android:backgroundTint="#F8B7ED"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.8"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="1.0"
+                tools:ignore="MissingConstraints">
+
+                <Button
+                    android:id="@+id/btnhome"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:backgroundTint="#F8B7ED"
+                    android:text="🏠"
+                    android:textSize="30sp" />
+
+                <Button
+                    android:id="@+id/btnvideo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="112dp"
+                    android:backgroundTint="#F8B7ED"
+                    android:text="🎬"
+                    android:textSize="30sp"
+                    tools:ignore="SpeakableTextPresentCheck" />
+
+                <Button
+                    android:id="@+id/btncontent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="215dp"
+                    android:backgroundTint="#F8B7ED"
+                    android:text="☕"
+                    android:textSize="30sp" />
+
+                <Button
+                    android:id="@+id/btnprofile"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="318dp"
+                    android:backgroundTint="#F8B7ED"
+                    android:text="👤"
+                    android:textSize="30sp" />
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/textView82"
+                android:layout_width="361dp"
+                android:layout_height="137dp"
+                android:text="Yes, Glow Sync is designed to help users improve their skincare routines by offering personalized recommendations and educational content. Whether you're looking to address specific concerns or simply enhance your overall skincare experience, Glow Sync can guide you in making informed decisions."
+                android:textColor="#000000"
+                android:textSize="16sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.562"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/cardView3"
+                app:layout_constraintVertical_bias="0.788" />
+
+            <TextView
+                android:id="@+id/textView93"
+                android:layout_width="361dp"
+                android:layout_height="137dp"
+                android:text="Glow Sync begins by providing users with information about their skin type, including oily, dry, or combination. Users can then explore personalized skincare recommendations tailored to their specific skin needs. The app also offers a curated selection of skincare products and routines to help users achieve optimal results."
+                android:textColor="#000000"
+                android:textSize="16sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.562"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/cardView3"
+                app:layout_constraintVertical_bias="0.462" />
+
+            <TextView
+                android:id="@+id/textView90"
+                android:layout_width="357dp"
+                android:layout_height="110dp"
+                android:text="Glow Sync is a mobile application designed to revolutionize the way users interact with skincare. It provides personalized recommendations and educational content based on individual skin types, helping users achieve their skincare goals."
+                android:textColor="#000000"
+                android:textSize="16sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/cardView3"
+                app:layout_constraintVertical_bias="0.207" />
+
+            <TextView
+                android:id="@+id/textView85"
+                android:layout_width="361dp"
+                android:layout_height="52dp"
+                android:text="Can Glow Sync help me improve my skincare routine?  "
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.437"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.626" />
+
+            <TextView
+                android:id="@+id/textView92"
+                android:layout_width="263dp"
+                android:layout_height="36dp"
+                android:text="How does Glow Sync work?"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.123"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.352" />
+
+            <TextView
+                android:id="@+id/textView86"
+                android:layout_width="263dp"
+                android:layout_height="36dp"
+                android:text="What is Glow Sync?"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.138"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.138" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>

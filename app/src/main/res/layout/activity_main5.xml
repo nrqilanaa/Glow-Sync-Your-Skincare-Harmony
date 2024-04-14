@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".`Question Oily 1`">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="516dp"
+        android:layout_height="950dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/question" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="347dp"
+        android:layout_height="534dp"
+        android:background="#000000"
+        android:backgroundTint="#FFFFFF"
+        app:cardCornerRadius="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.708"
+        app:layout_constraintStart_toStartOf="@+id/imageView3"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.458">
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="314dp"
+            android:layout_height="63dp"
+            android:layout_marginLeft="17dp"
+            android:layout_marginTop="350dp"
+            android:backgroundTint="#EAD5E5"
+            android:foregroundTint="#EAD5E5"
+            android:text="Button"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="314dp"
+            android:layout_height="63dp"
+            android:layout_marginLeft="17dp"
+            android:layout_marginTop="280dp"
+            android:backgroundTint="#EAD5E5"
+            android:foregroundTint="#EAD5E5"
+            android:text="In summer☀️, it becomes more oily in T-zone"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="314dp"
+            android:layout_height="63dp"
+            android:layout_marginLeft="17dp"
+            android:layout_marginTop="210dp"
+            android:backgroundTint="#EAD5E5"
+            android:foregroundTint="#EAD5E5"
+            android:text="It always feel balanced"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="314dp"
+            android:layout_height="63dp"
+            android:layout_marginLeft="17dp"
+            android:layout_marginTop="140dp"
+            android:backgroundTint="#EAD5E5"
+            android:foregroundTint="#EAD5E5"
+            android:text="In Summer☀️, it becomes more oily in all regions"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="282dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="40dp"
+            android:text="How does your skin act during the transition between seasons (from colder weather to warmer or weather or from warmer to colder)"
+            android:textColor="#3F51B5"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:visibility="visible" />
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="Oiliness"
+        android:textColor="#000000"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/cardView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+

@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity13">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity9"
+        tools:layout_editor_absoluteX="5dp"
+        tools:layout_editor_absoluteY="-39dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0"
+            tools:context=".MainActivity9">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView3"
+                android:layout_width="416dp"
+                android:layout_height="98dp"
+                android:background="#FFFFFF"
+                android:backgroundTint="#F8B7ED"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0">
+
+                <TextView
+                    android:id="@+id/textView17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="150dp"
+                    android:layout_marginTop="35dp"
+                    android:text="SKINTIFIC"
+                    android:textColor="#000000"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView4"
+                android:layout_width="416dp"
+                android:layout_height="67dp"
+                android:background="#FFFFFF"
+                android:backgroundTint="#F8B7ED"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.8"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="1.0"
+                tools:ignore="MissingConstraints">
+
+                <Button
+                    android:id="@+id/btnhome"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:backgroundTint="#F8B7ED"
+                    android:text="🏠"
+                    android:textSize="30sp" />
+
+                <Button
+                    android:id="@+id/btnvideo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="112dp"
+                    android:backgroundTint="#F8B7ED"
+                    android:text="🎬"
+                    android:textSize="30sp"
+                    tools:ignore="SpeakableTextPresentCheck" />
+
+                <Button
+                    android:id="@+id/btncontent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="215dp"
+                    android:backgroundTint="#F8B7ED"
+                    android:text="☕"
+                    android:textSize="30sp" />
+
+                <Button
+                    android:id="@+id/btnprofile"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="318dp"
+                    android:backgroundTint="#F8B7ED"
+                    android:text="👤"
+                    android:textSize="30sp" />
+
+            </androidx.cardview.widget.CardView>
+
+
+            <ScrollView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                app:layout_constraintBottom_toTopOf="@+id/cardView4"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cardView3"
+                app:layout_constraintVertical_bias="0.0"
+                tools:ignore="SpeakableTextPresentCheck">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cardView7"
+                        android:layout_width="159dp"
+                        android:layout_height="216dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="40dp"
+                        app:cardCornerRadius="20dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent">
+
+                        <TextView
+                            android:id="@+id/textView31"
+                            android:layout_width="150dp"
+                            android:layout_height="36dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginTop="160dp"
+                            android:text="Skintific Exfoliating Toner"
+                            android:textAlignment="center"
+                            android:textColor="#000000"
+                            android:textSize="14sp"
+                            android:textStyle="bold" />
+
+                        <ImageButton
+                            android:id="@+id/imageButton10"
+                            android:layout_width="match_parent"
+                            android:layout_height="151dp"
+                            android:background="@null"
+                            android:scaleType="fitXY"
+                            app:srcCompat="@drawable/skintifitc_exfoliating_toner"
+                            tools:ignore="SpeakableTextPresentCheck" />
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cardView6"
+                        android:layout_width="162dp"
+                        android:layout_height="213dp"
+                        android:layout_marginLeft="215dp"
+                        android:layout_marginTop="-215dp"
+                        app:cardCornerRadius="20dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent">
+
+                        <TextView
+                            android:id="@+id/textView1"
+                            android:layout_width="150dp"
+                            android:layout_height="36dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginTop="160dp"
+                            android:text="Skintific brightening Moisture Gel"
+                            android:textAlignment="center"
+                            android:textColor="#000000"
+                            android:textSize="14sp"
+                            android:textStyle="bold" />
+
+                        <ImageButton
+                            android:id="@+id/imageButton12"
+                            android:layout_width="match_parent"
+                            android:layout_height="144dp"
+                            android:background="@null"
+                            android:scaleType="fitXY"
+                            app:srcCompat="@drawable/skintific_brightening_moisture_gel"
+                            tools:ignore="SpeakableTextPresentCheck" />
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cardView1"
+                        android:layout_width="162dp"
+                        android:layout_height="208dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="40dp"
+                        app:cardCornerRadius="20dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent">
+
+                        <TextView
+                            android:id="@+id/textView2"
+                            android:layout_width="150dp"
+                            android:layout_height="36dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginTop="160dp"
+                            android:text="Skintific Gentle A Retinol Serum"
+                            android:textAlignment="center"
+                            android:textColor="#000000"
+                            android:textSize="14sp"
+                            android:textStyle="bold" />
+
+                        <ImageButton
+                            android:id="@+id/imageButton8"
+                            android:layout_width="match_parent"
+                            android:layout_height="153dp"
+                            android:background="@null"
+                            android:scaleType="fitXY"
+                            app:srcCompat="@drawable/skintific_gentle_a_retinol_serum"
+                            tools:ignore="SpeakableTextPresentCheck" />
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cardView2"
+                        android:layout_width="162dp"
+                        android:layout_height="208dp"
+                        android:layout_marginLeft="215dp"
+                        android:layout_marginTop="-207dp"
+                        app:cardCornerRadius="20dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent">
+
+                        <TextView
+                            android:id="@+id/textView30"
+                            android:layout_width="150dp"
+                            android:layout_height="36dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginTop="160dp"
+                            android:text="Skintific Brightening Serum"
+                            android:textAlignment="center"
+                            android:textColor="#000000"
+                            android:textSize="14sp"
+                            android:textStyle="bold" />
+
+                        <ImageButton
+                            android:id="@+id/imageButton"
+                            android:layout_width="match_parent"
+                            android:layout_height="153dp"
+                            android:background="@null"
+                            android:scaleType="fitXY"
+                            app:srcCompat="@drawable/skintific_brightening_serum"
+                            tools:ignore="SpeakableTextPresentCheck" />
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cardView5"
+                        android:layout_width="162dp"
+                        android:layout_height="208dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="40dp"
+                        app:cardCornerRadius="20dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent">
+
+                        <TextView
+                            android:id="@+id/textView35"
+                            android:layout_width="150dp"
+                            android:layout_height="36dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginTop="160dp"
+                            android:text="Skintific Mugwort Anti Pores and Acne"
+                            android:textAlignment="center"
+                            android:textColor="#000000"
+                            android:textSize="14sp"
+                            android:textStyle="bold" />
+
+                        <ImageView
+                            android:id="@+id/imageView58"
+                            android:layout_width="match_parent"
+                            android:layout_height="149dp"
+                            app:srcCompat="@drawable/skintific_mugwort" />
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cardView8"
+                        android:layout_width="162dp"
+                        android:layout_height="208dp"
+                        android:layout_marginLeft="215dp"
+                        android:layout_marginTop="-208dp"
+                        app:cardCornerRadius="20dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent">
+
+                        <TextView
+                            android:id="@+id/textView36"
+                            android:layout_width="150dp"
+                            android:layout_height="36dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginTop="160dp"
+                            android:text="All Day Light Sunscreen Mist SPF 50"
+                            android:textAlignment="center"
+                            android:textColor="#000000"
+                            android:textSize="14sp"
+                            android:textStyle="bold" />
+
+                        <ImageView
+                            android:id="@+id/imageView61"
+                            android:layout_width="match_parent"
+                            android:layout_height="156dp"
+                            app:srcCompat="@drawable/skintific_sun" />
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cardView9"
+                        android:layout_width="162dp"
+                        android:layout_height="208dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="40dp"
+                        android:layout_marginBottom="30dp"
+                        app:cardCornerRadius="20dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent">
+
+                        <TextView
+                            android:id="@+id/textView38"
+                            android:layout_width="150dp"
+                            android:layout_height="36dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginTop="160dp"
+                            android:text="Skintific 2% Salicylic Acid Anti Acne Serum"
+                            android:textAlignment="center"
+                            android:textColor="#000000"
+                            android:textSize="14sp"
+                            android:textStyle="bold" />
+
+                        <ImageView
+                            android:id="@+id/imageView69"
+                            android:layout_width="match_parent"
+                            android:layout_height="162dp"
+                            app:srcCompat="@drawable/skintific_acid" />
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cardView10"
+                        android:layout_width="162dp"
+                        android:layout_height="208dp"
+                        android:layout_marginLeft="215dp"
+                        android:layout_marginTop="-237dp"
+                        android:layout_marginBottom="30dp"
+                        app:cardCornerRadius="20dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent">
+
+                        <TextView
+                            android:id="@+id/textView39"
+                            android:layout_width="150dp"
+                            android:layout_height="36dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginTop="160dp"
+                            android:text="Skintific Brightening Serum"
+                            android:textAlignment="center"
+                            android:textColor="#000000"
+                            android:textSize="14sp"
+                            android:textStyle="bold" />
+
+                        <ImageButton
+                            android:id="@+id/imageButton4"
+                            android:layout_width="match_parent"
+                            android:layout_height="153dp"
+                            android:background="@null"
+                            android:scaleType="fitXY"
+                            app:srcCompat="@drawable/skintific_brightening_serum"
+                            tools:ignore="SpeakableTextPresentCheck" />
+
+                    </androidx.cardview.widget.CardView>
+
+                </LinearLayout>
+            </ScrollView>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

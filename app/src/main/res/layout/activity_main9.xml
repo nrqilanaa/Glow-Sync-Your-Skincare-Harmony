@@ -1,0 +1,1018 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity9">
+
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity9"
+        tools:layout_editor_absoluteX="5dp"
+        tools:layout_editor_absoluteY="-39dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            tools:context=".MainActivity9">
+
+            <ScrollView
+                android:layout_width="410dp"
+                android:layout_height="685dp"
+                android:layout_marginTop="95dp"
+                android:layout_marginBottom="66dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="1.0">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginTop="30dp"
+                        android:text="Cleanser For You"
+                        android:textAllCaps="false"
+                        android:textColor="#000000"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.814"
+                        tools:ignore="HardcodedText" />
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cardView15"
+                        android:layout_width="162dp"
+                        android:layout_height="208dp"
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginTop="20dp"
+                        app:cardCornerRadius="20dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.887"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.291"
+                        tools:ignore="ExtraText,MissingConstraints">
+
+                        <ImageButton
+                            android:id="@+id/imageButton4"
+                            android:layout_width="match_parent"
+                            android:layout_height="130dp"
+                            android:layout_marginTop="15dp"
+                            android:background="@null"
+                            android:scaleType="fitXY"
+                            app:srcCompat="@drawable/wardah_pore_tightening_toner"
+                            tools:ignore="SpeakableTextPresentCheck" />
+
+                        <TextView
+                            android:id="@+id/textView17"
+                            android:layout_width="150dp"
+                            android:layout_height="38dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginTop="160dp"
+                            android:text="Wardah Pore Tightening Toner"
+                            android:textAlignment="center"
+                            android:textColor="#000000"
+                            android:textSize="14sp"
+                            android:textStyle="bold" />
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cardView6"
+                        android:layout_width="162dp"
+                        android:layout_height="208dp"
+                        android:layout_marginLeft="220dp"
+                        android:layout_marginTop="-210dp"
+                        app:cardCornerRadius="20dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toStartOf="@+id/cardView2"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.26">
+
+                        <ImageButton
+                            android:id="@+id/imageButton23"
+                            android:layout_width="match_parent"
+                            android:layout_height="154dp"
+                            android:background="@null"
+                            android:scaleType="fitXY"
+                            app:srcCompat="@drawable/wardah_acne_perfecting_moisturizer_gel"
+                            tools:ignore="SpeakableTextPresentCheck,DuplicateClickableBoundsCheck" />
+
+                        <TextView
+                            android:id="@+id/textView68"
+                            android:layout_width="150dp"
+                            android:layout_height="36dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginTop="160dp"
+                            android:text="Wardah Acne Perfecting Moisturizer Gel"
+                            android:textAlignment="center"
+                            android:textColor="#000000"
+                            android:textSize="14sp"
+                            android:textStyle="bold" />
+
+                        <ImageButton
+                            android:id="@+id/imageButton20"
+                            android:layout_width="match_parent"
+                            android:layout_height="154dp"
+                            android:background="@null"
+                            android:scaleType="fitXY"
+                            app:srcCompat="@drawable/wardah_acne_perfecting_moisturizer_gel"
+                            tools:ignore="SpeakableTextPresentCheck" />
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cardView10"
+                        android:layout_width="162dp"
+                        android:layout_height="208dp"
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginTop="20dp"
+                        app:cardCornerRadius="20dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.887"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.291"
+                        tools:ignore="ExtraText,MissingConstraints">
+
+                        <ImageButton
+                            android:id="@+id/imageButton5"
+                            android:layout_width="match_parent"
+                            android:layout_height="130dp"
+                            android:layout_marginTop="15dp"
+                            android:background="@null"
+                            android:scaleType="fitXY"
+                            app:srcCompat="@drawable/wardah_pore_tightening_toner"
+                            tools:ignore="SpeakableTextPresentCheck" />
+
+                        <TextView
+                            android:id="@+id/textView18"
+                            android:layout_width="150dp"
+                            android:layout_height="38dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginTop="160dp"
+                            android:text="Wardah Pore Tightening Toner"
+                            android:textAlignment="center"
+                            android:textColor="#000000"
+                            android:textSize="14sp"
+                            android:textStyle="bold" />
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cardView11"
+                        android:layout_width="162dp"
+                        android:layout_height="208dp"
+                        android:layout_marginLeft="220dp"
+                        android:layout_marginTop="-210dp"
+                        app:cardCornerRadius="20dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.887"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.291"
+                        tools:ignore="ExtraText,MissingConstraints">
+
+                        <ImageButton
+                            android:id="@+id/imageButton69"
+                            android:layout_width="match_parent"
+                            android:layout_height="130dp"
+                            android:layout_marginTop="15dp"
+                            android:background="@null"
+                            android:scaleType="fitXY"
+                            app:srcCompat="@drawable/wardah_pore_tightening_toner"
+                            tools:ignore="SpeakableTextPresentCheck" />
+
+                        <TextView
+                            android:id="@+id/textView22"
+                            android:layout_width="150dp"
+                            android:layout_height="38dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginTop="160dp"
+                            android:text="Wardah Pore Tightening Toner"
+                            android:textAlignment="center"
+                            android:textColor="#000000"
+                            android:textSize="14sp"
+                            android:textStyle="bold" />
+                    </androidx.cardview.widget.CardView>
+
+                    <TextView
+                        android:id="@+id/textView21"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginTop="40dp"
+                        android:text="Serum For You"
+                        android:textAllCaps="false"
+                        android:textColor="#000000"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.814"
+                        tools:ignore="HardcodedText" />
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cardView12"
+                        android:layout_width="162dp"
+                        android:layout_height="208dp"
+                        android:layout_marginLeft="220dp"
+                        android:layout_marginTop="30dp"
+                        app:cardCornerRadius="20dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.887"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.291"
+                        tools:ignore="ExtraText,MissingConstraints">
+
+                        <ImageButton
+                            android:id="@+id/imageButton11"
+                            android:layout_width="match_parent"
+                            android:layout_height="130dp"
+                            android:layout_marginTop="15dp"
+                            android:background="@null"
+                            android:scaleType="fitXY"
+                            app:srcCompat="@drawable/wardah_pore_tightening_toner"
+                            tools:ignore="SpeakableTextPresentCheck" />
+
+                        <TextView
+                            android:id="@+id/textView23"
+                            android:layout_width="150dp"
+                            android:layout_height="38dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginTop="160dp"
+                            android:text="Wardah Pore Tightening Toner"
+                            android:textAlignment="center"
+                            android:textColor="#000000"
+                            android:textSize="14sp"
+                            android:textStyle="bold" />
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cardView13"
+                        android:layout_width="162dp"
+                        android:layout_height="208dp"
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginTop="-210dp"
+                        app:cardCornerRadius="20dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.887"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.291"
+                        tools:ignore="ExtraText,MissingConstraints">
+
+                        <ImageButton
+                            android:id="@+id/imageButton14"
+                            android:layout_width="match_parent"
+                            android:layout_height="130dp"
+                            android:layout_marginTop="15dp"
+                            android:background="@null"
+                            android:scaleType="fitXY"
+                            app:srcCompat="@drawable/wardah_pore_tightening_toner"
+                            tools:ignore="SpeakableTextPresentCheck" />
+
+                        <TextView
+                            android:id="@+id/textView24"
+                            android:layout_width="150dp"
+                            android:layout_height="38dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginTop="160dp"
+                            android:text="Wardah Pore Tightening Toner"
+                            android:textAlignment="center"
+                            android:textColor="#000000"
+                            android:textSize="14sp"
+                            android:textStyle="bold" />
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cardView25"
+                        android:layout_width="162dp"
+                        android:layout_height="208dp"
+                        android:layout_marginLeft="220dp"
+                        android:layout_marginTop="20dp"
+                        app:cardCornerRadius="20dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.887"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.291"
+                        tools:ignore="ExtraText,MissingConstraints">
+
+                        <ImageButton
+                            android:id="@+id/imageButton26"
+                            android:layout_width="match_parent"
+                            android:layout_height="130dp"
+                            android:layout_marginTop="15dp"
+                            android:background="@null"
+                            android:scaleType="fitXY"
+                            app:srcCompat="@drawable/wardah_pore_tightening_toner"
+                            tools:ignore="SpeakableTextPresentCheck" />
+
+                        <TextView
+                            android:id="@+id/textView27"
+                            android:layout_width="150dp"
+                            android:layout_height="38dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginTop="160dp"
+                            android:text="Wardah Pore Tightening Toner"
+                            android:textAlignment="center"
+                            android:textColor="#000000"
+                            android:textSize="14sp"
+                            android:textStyle="bold" />
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cardView28"
+                        android:layout_width="162dp"
+                        android:layout_height="208dp"
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginTop="-210dp"
+                        app:cardCornerRadius="20dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.887"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.291"
+                        tools:ignore="ExtraText,MissingConstraints">
+
+                        <ImageButton
+                            android:id="@+id/imageButton29"
+                            android:layout_width="match_parent"
+                            android:layout_height="130dp"
+                            android:layout_marginTop="15dp"
+                            android:background="@null"
+                            android:scaleType="fitXY"
+                            app:srcCompat="@drawable/wardah_pore_tightening_toner"
+                            tools:ignore="SpeakableTextPresentCheck" />
+
+                        <TextView
+                            android:id="@+id/textView30"
+                            android:layout_width="150dp"
+                            android:layout_height="38dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginTop="160dp"
+                            android:text="Wardah Pore Tightening Toner"
+                            android:textAlignment="center"
+                            android:textColor="#000000"
+                            android:textSize="14sp"
+                            android:textStyle="bold" />
+                    </androidx.cardview.widget.CardView>
+
+                    <TextView
+                        android:id="@+id/textView31"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginTop="40dp"
+                        android:text="Moisturizer For You"
+                        android:textAllCaps="false"
+                        android:textColor="#000000"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.814"
+                        tools:ignore="HardcodedText" />
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cardView32"
+                        android:layout_width="162dp"
+                        android:layout_height="208dp"
+                        android:layout_marginLeft="220dp"
+                        android:layout_marginTop="30dp"
+                        app:cardCornerRadius="20dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.887"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.291"
+                        tools:ignore="ExtraText,MissingConstraints">
+
+                        <ImageButton
+                            android:id="@+id/imageButton33"
+                            android:layout_width="match_parent"
+                            android:layout_height="130dp"
+                            android:layout_marginTop="15dp"
+                            android:background="@null"
+                            android:scaleType="fitXY"
+                            app:srcCompat="@drawable/wardah_pore_tightening_toner"
+                            tools:ignore="SpeakableTextPresentCheck" />
+
+                        <TextView
+                            android:id="@+id/textView34"
+                            android:layout_width="150dp"
+                            android:layout_height="38dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginTop="160dp"
+                            android:text="Wardah Pore Tightening Toner"
+                            android:textAlignment="center"
+                            android:textColor="#000000"
+                            android:textSize="14sp"
+                            android:textStyle="bold" />
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cardView35"
+                        android:layout_width="162dp"
+                        android:layout_height="208dp"
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginTop="-210dp"
+                        app:cardCornerRadius="20dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.887"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.291"
+                        tools:ignore="ExtraText,MissingConstraints">
+
+                        <ImageButton
+                            android:id="@+id/imageButton36"
+                            android:layout_width="match_parent"
+                            android:layout_height="130dp"
+                            android:layout_marginTop="15dp"
+                            android:background="@null"
+                            android:scaleType="fitXY"
+                            app:srcCompat="@drawable/wardah_pore_tightening_toner"
+                            tools:ignore="SpeakableTextPresentCheck" />
+
+                        <TextView
+                            android:id="@+id/textView37"
+                            android:layout_width="150dp"
+                            android:layout_height="38dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginTop="160dp"
+                            android:text="Wardah Pore Tightening Toner"
+                            android:textAlignment="center"
+                            android:textColor="#000000"
+                            android:textSize="14sp"
+                            android:textStyle="bold" />
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cardView38"
+                        android:layout_width="162dp"
+                        android:layout_height="208dp"
+                        android:layout_marginLeft="220dp"
+                        android:layout_marginTop="20dp"
+                        app:cardCornerRadius="20dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.887"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.291"
+                        tools:ignore="ExtraText,MissingConstraints">
+
+                        <ImageButton
+                            android:id="@+id/imageButton39"
+                            android:layout_width="match_parent"
+                            android:layout_height="130dp"
+                            android:layout_marginTop="15dp"
+                            android:background="@null"
+                            android:scaleType="fitXY"
+                            app:srcCompat="@drawable/wardah_pore_tightening_toner"
+                            tools:ignore="SpeakableTextPresentCheck" />
+
+                        <TextView
+                            android:id="@+id/textView40"
+                            android:layout_width="150dp"
+                            android:layout_height="38dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginTop="160dp"
+                            android:text="Wardah Pore Tightening Toner"
+                            android:textAlignment="center"
+                            android:textColor="#000000"
+                            android:textSize="14sp"
+                            android:textStyle="bold" />
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cardView41"
+                        android:layout_width="162dp"
+                        android:layout_height="208dp"
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginTop="-210dp"
+                        app:cardCornerRadius="20dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.887"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.291"
+                        tools:ignore="ExtraText,MissingConstraints">
+
+                        <ImageButton
+                            android:id="@+id/imageButton42"
+                            android:layout_width="match_parent"
+                            android:layout_height="130dp"
+                            android:layout_marginTop="15dp"
+                            android:background="@null"
+                            android:scaleType="fitXY"
+                            app:srcCompat="@drawable/wardah_pore_tightening_toner"
+                            tools:ignore="SpeakableTextPresentCheck" />
+
+                        <TextView
+                            android:id="@+id/textView43"
+                            android:layout_width="150dp"
+                            android:layout_height="38dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginTop="160dp"
+                            android:text="Wardah Pore Tightening Toner"
+                            android:textAlignment="center"
+                            android:textColor="#000000"
+                            android:textSize="14sp"
+                            android:textStyle="bold" />
+                    </androidx.cardview.widget.CardView>
+
+                    <TextView
+                        android:id="@+id/textView44"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginTop="40dp"
+                        android:text="Toner For You"
+                        android:textAllCaps="false"
+                        android:textColor="#000000"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.814"
+                        tools:ignore="HardcodedText" />
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cardView45"
+                        android:layout_width="162dp"
+                        android:layout_height="208dp"
+                        android:layout_marginLeft="220dp"
+                        android:layout_marginTop="30dp"
+                        app:cardCornerRadius="20dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.887"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.291"
+                        tools:ignore="ExtraText,MissingConstraints">
+
+                        <ImageButton
+                            android:id="@+id/imageButton46"
+                            android:layout_width="match_parent"
+                            android:layout_height="130dp"
+                            android:layout_marginTop="15dp"
+                            android:background="@null"
+                            android:scaleType="fitXY"
+                            app:srcCompat="@drawable/wardah_pore_tightening_toner"
+                            tools:ignore="SpeakableTextPresentCheck" />
+
+                        <TextView
+                            android:id="@+id/textView47"
+                            android:layout_width="150dp"
+                            android:layout_height="38dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginTop="160dp"
+                            android:text="Wardah Pore Tightening Toner"
+                            android:textAlignment="center"
+                            android:textColor="#000000"
+                            android:textSize="14sp"
+                            android:textStyle="bold" />
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cardView48"
+                        android:layout_width="162dp"
+                        android:layout_height="208dp"
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginTop="-210dp"
+                        app:cardCornerRadius="20dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.887"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.291"
+                        tools:ignore="ExtraText,MissingConstraints">
+
+                        <ImageButton
+                            android:id="@+id/imageButton49"
+                            android:layout_width="match_parent"
+                            android:layout_height="130dp"
+                            android:layout_marginTop="15dp"
+                            android:background="@null"
+                            android:scaleType="fitXY"
+                            app:srcCompat="@drawable/wardah_pore_tightening_toner"
+                            tools:ignore="SpeakableTextPresentCheck" />
+
+                        <TextView
+                            android:id="@+id/textView50"
+                            android:layout_width="150dp"
+                            android:layout_height="38dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginTop="160dp"
+                            android:text="Wardah Pore Tightening Toner"
+                            android:textAlignment="center"
+                            android:textColor="#000000"
+                            android:textSize="14sp"
+                            android:textStyle="bold" />
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cardView51"
+                        android:layout_width="162dp"
+                        android:layout_height="208dp"
+                        android:layout_marginLeft="220dp"
+                        android:layout_marginTop="20dp"
+                        app:cardCornerRadius="20dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.887"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.291"
+                        tools:ignore="ExtraText,MissingConstraints">
+
+                        <ImageButton
+                            android:id="@+id/imageButton52"
+                            android:layout_width="match_parent"
+                            android:layout_height="130dp"
+                            android:layout_marginTop="15dp"
+                            android:background="@null"
+                            android:scaleType="fitXY"
+                            app:srcCompat="@drawable/wardah_pore_tightening_toner"
+                            tools:ignore="SpeakableTextPresentCheck" />
+
+                        <TextView
+                            android:id="@+id/textView53"
+                            android:layout_width="150dp"
+                            android:layout_height="38dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginTop="160dp"
+                            android:text="Wardah Pore Tightening Toner"
+                            android:textAlignment="center"
+                            android:textColor="#000000"
+                            android:textSize="14sp"
+                            android:textStyle="bold" />
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cardView54"
+                        android:layout_width="162dp"
+                        android:layout_height="208dp"
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginTop="-210dp"
+                        app:cardCornerRadius="20dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.887"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.291"
+                        tools:ignore="ExtraText,MissingConstraints">
+
+                        <ImageButton
+                            android:id="@+id/imageButton55"
+                            android:layout_width="match_parent"
+                            android:layout_height="130dp"
+                            android:layout_marginTop="15dp"
+                            android:background="@null"
+                            android:scaleType="fitXY"
+                            app:srcCompat="@drawable/wardah_pore_tightening_toner"
+                            tools:ignore="SpeakableTextPresentCheck" />
+
+                        <TextView
+                            android:id="@+id/textView56"
+                            android:layout_width="150dp"
+                            android:layout_height="38dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginTop="160dp"
+                            android:text="Wardah Pore Tightening Toner"
+                            android:textAlignment="center"
+                            android:textColor="#000000"
+                            android:textSize="14sp"
+                            android:textStyle="bold" />
+                    </androidx.cardview.widget.CardView>
+
+                    <TextView
+                        android:id="@+id/textView8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginTop="40dp"
+                        android:text="Suncare For You"
+                        android:textAllCaps="false"
+                        android:textColor="#000000"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.814"
+                        tools:ignore="HardcodedText" />
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cardView57"
+                        android:layout_width="162dp"
+                        android:layout_height="208dp"
+                        android:layout_marginLeft="220dp"
+                        android:layout_marginTop="30dp"
+                        app:cardCornerRadius="20dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.887"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.291"
+                        tools:ignore="ExtraText,MissingConstraints">
+
+                        <ImageButton
+                            android:id="@+id/imageButton58"
+                            android:layout_width="match_parent"
+                            android:layout_height="130dp"
+                            android:layout_marginTop="15dp"
+                            android:background="@null"
+                            android:scaleType="fitXY"
+                            app:srcCompat="@drawable/wardah_pore_tightening_toner"
+                            tools:ignore="SpeakableTextPresentCheck" />
+
+                        <TextView
+                            android:id="@+id/textView59"
+                            android:layout_width="150dp"
+                            android:layout_height="38dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginTop="160dp"
+                            android:text="Wardah Pore Tightening Toner"
+                            android:textAlignment="center"
+                            android:textColor="#000000"
+                            android:textSize="14sp"
+                            android:textStyle="bold" />
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cardView60"
+                        android:layout_width="162dp"
+                        android:layout_height="208dp"
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginTop="-210dp"
+                        app:cardCornerRadius="20dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.887"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.291"
+                        tools:ignore="ExtraText,MissingConstraints">
+
+                        <ImageButton
+                            android:id="@+id/imageButton61"
+                            android:layout_width="match_parent"
+                            android:layout_height="130dp"
+                            android:layout_marginTop="15dp"
+                            android:background="@null"
+                            android:scaleType="fitXY"
+                            app:srcCompat="@drawable/wardah_pore_tightening_toner"
+                            tools:ignore="SpeakableTextPresentCheck" />
+
+                        <TextView
+                            android:id="@+id/textView62"
+                            android:layout_width="150dp"
+                            android:layout_height="38dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginTop="160dp"
+                            android:text="Wardah Pore Tightening Toner"
+                            android:textAlignment="center"
+                            android:textColor="#000000"
+                            android:textSize="14sp"
+                            android:textStyle="bold" />
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cardView63"
+                        android:layout_width="162dp"
+                        android:layout_height="208dp"
+                        android:layout_marginLeft="220dp"
+                        android:layout_marginTop="20dp"
+                        app:cardCornerRadius="20dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.887"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.291"
+                        tools:ignore="ExtraText,MissingConstraints">
+
+                        <ImageButton
+                            android:id="@+id/imageButton64"
+                            android:layout_width="match_parent"
+                            android:layout_height="130dp"
+                            android:layout_marginTop="15dp"
+                            android:background="@null"
+                            android:scaleType="fitXY"
+                            app:srcCompat="@drawable/wardah_pore_tightening_toner"
+                            tools:ignore="SpeakableTextPresentCheck" />
+
+                        <TextView
+                            android:id="@+id/textView65"
+                            android:layout_width="150dp"
+                            android:layout_height="38dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginTop="160dp"
+                            android:text="Wardah Pore Tightening Toner"
+                            android:textAlignment="center"
+                            android:textColor="#000000"
+                            android:textSize="14sp"
+                            android:textStyle="bold" />
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cardView66"
+                        android:layout_width="162dp"
+                        android:layout_height="208dp"
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginTop="-210dp"
+                        app:cardCornerRadius="20dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.887"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.291"
+                        tools:ignore="ExtraText,MissingConstraints">
+
+                        <ImageButton
+                            android:id="@+id/imageButton3"
+                            android:layout_width="match_parent"
+                            android:layout_height="130dp"
+                            android:layout_marginTop="15dp"
+                            android:background="@null"
+                            android:scaleType="fitXY"
+                            app:srcCompat="@drawable/wardah_pore_tightening_toner"
+                            tools:ignore="SpeakableTextPresentCheck" />
+
+                        <TextView
+                            android:id="@+id/textView16"
+                            android:layout_width="150dp"
+                            android:layout_height="38dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginTop="160dp"
+                            android:text="Wardah Pore Tightening Toner"
+                            android:textAlignment="center"
+                            android:textColor="#000000"
+                            android:textSize="14sp"
+                            android:textStyle="bold" />
+                    </androidx.cardview.widget.CardView>
+
+                </LinearLayout>
+            </ScrollView>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView"
+                android:layout_width="416dp"
+                android:layout_height="67dp"
+                android:background="#FFFFFF"
+                android:backgroundTint="#F8B7ED"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.8"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="1.0"
+                tools:ignore="MissingConstraints">
+
+
+
+                <Button
+                    android:id="@+id/btnhome"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:backgroundTint="#F8B7ED"
+                    android:text="🏠"
+                    android:textSize="30sp" />
+
+                <Button
+                    android:id="@+id/btnvideo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="112dp"
+                    android:backgroundTint="#F8B7ED"
+                    android:text="🎬"
+                    android:textSize="30sp"
+                    tools:ignore="SpeakableTextPresentCheck" />
+
+                <Button
+                    android:id="@+id/btncontent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="215dp"
+                    android:backgroundTint="#F8B7ED"
+                    android:text="☕"
+                    android:textSize="30sp" />
+
+                <Button
+                    android:id="@+id/btnprofile"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="318dp"
+                    android:backgroundTint="#F8B7ED"
+                    android:text="👤"
+                    android:textSize="30sp" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView3"
+                android:layout_width="416dp"
+                android:layout_height="98dp"
+                android:background="#FFFFFF"
+                android:backgroundTint="#F8B7ED"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0">
+
+                <ImageView
+                    android:id="@+id/imageView11"
+                    android:layout_width="74dp"
+                    android:layout_height="88dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="7dp"
+                    android:contentDescription="TODO"
+                    app:srcCompat="@drawable/beauty" />
+
+                <TextView
+                    android:id="@+id/signmsg1"
+                    android:layout_width="181dp"
+                    android:layout_height="34dp"
+                    android:layout_marginLeft="105dp"
+                    android:layout_marginTop="30dp"
+                    android:textColor="#000000"
+                    android:textSize="21sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="129dp"
+                    android:layout_height="23dp"
+                    android:layout_marginLeft="105dp"
+                    android:layout_marginTop="60dp"
+                    android:text="Hello, Nice Skin!"
+                    android:textColor="#000000"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+            </androidx.cardview.widget.CardView>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
